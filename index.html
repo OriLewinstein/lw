@@ -10,12 +10,12 @@
 </head>
 <body>
     <div class="top-container">
-        <h1>הקליניקה של ליאם</h1>
+        <h1 class="headliner">הקליניקה של ליאם</h1>
         <p>היי משפחתי היקרה, פתחתי קליניקה שבה אני עושה טיפולי<br>
              .רגליים מלווים בשירי רקע מרגיעים ודמיון מודרך על ידי</p>
     </div>
    <div class="middle-container">
-    <img src="images/dog-massage.gif" alt="">
+    <img class="dog-photo" src="images/dog-massage.gif" alt="">
     <hr>
     <h2>:תפריט</h2>
     <h4>₪טיפול רגליים יחיד - 5</h4>
@@ -27,9 +27,16 @@
         <label>:שם</label><br>
         <input class="input" type="name" name="name" value=""><br>
         <label>תאריך</label><br>
-        <input class="input" type="date" name="date" value=""><br>
-        <p>😘נא לצלם מסך של הפרטים ולשלוח בוואטסאפ</p>
+        <input class="input" type="date" name="date" value="תאריך"><br>
+        <p>:סוג טיפול</p>
+        <form>
+            <input type="radio" id="solo" name="type" value="solo">
+            <label for="html">יחיד</label>
+            <input type="radio" id="duo" name="type" value="duo">
+            <label for="css">זוגי</label>
+        </form>
     </form>
+    <p>😘נא לצלם מסך של הפרטים ולשלוח בוואטסאפ</p>
    </div>
    <div class="bottom-container">
         <h3>❤️תודה רבה שהגעתם</h3>
