@@ -1,0 +1,13 @@
+body {
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+    background-color: #EFFFFD;
+}
+
+.input {
+    text-align: right;
+}
+
+img {
+    border-radius: 50%;
+}
