@@ -9,14 +9,40 @@ body {
     text-align: right;
 }
 
-img {
-    border-radius: 50%;
-}
-
 hr {
     border-style: none;
     border-top-style: dotted;
     border-color: grey;
     border-width: 5px;
     width: 3%;
+}
+
+.dog-photo {
+    border-radius: 50%;
+    
+}
+
+input{
+    border-radius: 25px;
+    background-color: #EFFFFD;
+    background-position: left top;
+    width: 150px;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+  }
+
+.radio {
+    height: 10px;
+    width: 10px;
+    padding: 20px;
+}
+
+#solo {
+    width:10px;
+    height: 10px;
+}
+
+#duo {
+    width:10px;
+    height: 10px;
 }
