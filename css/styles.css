@@ -2,6 +2,7 @@ body {
     font-family: 'Fredoka', sans-serif;
     text-align: center;
     background-color: #EFFFFD;
+    font-weight: bold;
 }
 
 .input {
@@ -10,4 +11,12 @@ body {
 
 img {
     border-radius: 50%;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 3%;
 }
